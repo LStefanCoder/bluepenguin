@@ -10,16 +10,18 @@ def aboutwindow(root):
     aboutwindowobject = Toplevel(root)
     aboutwindowobject.title("About BluePenguin")
     aboutwindowobject.iconbitmap('images/PDFreorganizerlogo.ico')
-    aboutwindowobject.geometry("200x100")
-    aboutwindowobject.minsize(200, 100)
-    aboutwindowobject.maxsize(200, 100)
+    aboutwindowobject.geometry("300x100")
+    aboutwindowobject.minsize(300, 100)
+    aboutwindowobject.maxsize(300, 100)
 
-    aboutwindow_label1 = Label(aboutwindowobject, text="Blue Penguin    PDF Reorganizer")
+    aboutwindow_label1 = Label(aboutwindowobject, text="Blue Penguin")
     aboutwindow_label1.grid(row=0, column=0)
-    aboutwindow_label1 = Label(aboutwindowobject, text="Released 2023")
-    aboutwindow_label1.grid(row=1, column=0)
-    aboutwindow_label2 = Label(aboutwindowobject, text="Program is under GPL v3.0")
-    aboutwindow_label2.grid(row=2, column=0)
+    aboutwindow_label2 = Label(aboutwindowobject, text="An A6 and A7-sized booklet creator by LStefanCoder")
+    aboutwindow_label2.grid(row=1, column=0)
+    aboutwindow_label3 = Label(aboutwindowobject, text="https://github.com/LStefanCoder/bluepenguin")
+    aboutwindow_label3.grid(row=2, column=0)
+    aboutwindow_label4 = Label(aboutwindowobject, text="Program licensed under GPL v3.0")
+    aboutwindow_label4.grid(row=4, column=0)
 
 
 #this function fills up the pagenumbers in the correct order

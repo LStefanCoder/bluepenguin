@@ -14,4 +14,4 @@ For A6-sized booklets, the program will add empty pages until the number of page
 
 ## License
 
-Released under the GPL v. 3.0 license.
+Released under the GPL v. 3.0 license (see https://www.gnu.org/licenses/gpl-3.0.txt).
