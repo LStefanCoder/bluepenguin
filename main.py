@@ -163,6 +163,6 @@ if pdfFileObj is not None:
     pdfFileObj.close()
 
 root.mainloop()
-#window opened again when closed -- error message can be ignored
-root.destroy()
+#window opened again when closed -- only to be used in when developing and the window appears again a second time -- error message can be ignored
+#root.destroy()
 #https://stackoverflow.com/questions/26222538/why-does-my-window-reopen-when-closed
