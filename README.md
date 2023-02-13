@@ -1,3 +1,17 @@
 # BluePenguin
 
 Takes a PDF file with A4-sized pages, and converts it into into an A6 or A7-sized printable booklet.
+
+## Usage
+
+Open a PDF file with "Open file", select "4-page-layout" (A6) or "8-page-layout" (A7), click "Convert!", and finally "Save file".
+
+## Notes
+
+At the moment, only PDF files with A4-sized pages are supported.
+
+For A6-sized booklets, the program will add empty pages until the number of pages is divisible by 8, and for A7-sized ones, until it is divisible by 16.
+
+## License
+
+Released under the GPL v. 3.0 license.
