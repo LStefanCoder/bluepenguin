@@ -9,7 +9,7 @@ from PyPDF2 import PdfFileReader, PdfFileWriter
 def aboutwindow(root):
     aboutwindowobject = Toplevel(root)
     aboutwindowobject.title("About BluePenguin")
-    aboutwindowobject.iconbitmap('images/PDFreorganizerlogo.ico')
+    aboutwindowobject.iconbitmap('icon/BluePenguin.ico')
     aboutwindowobject.geometry("300x100")
     aboutwindowobject.minsize(300, 100)
     aboutwindowobject.maxsize(300, 100)

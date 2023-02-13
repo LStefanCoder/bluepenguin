@@ -31,8 +31,8 @@ finalPdf = None
 
 #https://www.reddit.com/r/Python/comments/lps11c/how_to_make_tkinter_look_modern_how_to_use_theme
 root = ThemedTk(theme='yaru')
-root.title('BluePenguin    PDF Reorganizer')
-root.iconbitmap('images/PDFreorganizerlogo.ico')
+root.title('BluePenguin')
+root.iconbitmap('icon/BluePenguin.ico')
 #https://www.pythontutorial.net/tkinter/tkinter-open-file-dialog/
 root.geometry('350x150')
 root.minsize(350, 150)
