@@ -12,6 +12,13 @@ At the moment, only PDF files with A4-sized pages are supported.
 
 For A6-sized booklets, the program will add empty pages until the number of pages is divisible by 8, and for A7-sized ones, until it is divisible by 16.
 
+## Compiling
+
+The dependencies are:
+
+- PyPDF2
+- ttkthemes
+
 ## License
 
 Released under the GPL v. 3.0 license (see https://www.gnu.org/licenses/gpl-3.0.txt).

@@ -7,7 +7,6 @@ from tkinter import filedialog
 from tkinter import ttk #for the styling among other things
 from ttkthemes import ThemedTk #the theme
 import sys #sys.exit to close the process
-import io #io.BytesIO() creates a buffer, see https://stackoverflow.com/questions/65528639/how-to-save-a-file-into-a-buffer
 
 #importing from the other python files
 from auxiliary import pagenumberarray_filler
