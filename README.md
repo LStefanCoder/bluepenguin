@@ -17,8 +17,13 @@ For A6-sized booklets, the program will add empty pages until the number of page
 
 The dependencies are:
 
+- tkinter (built-in)
+- os (built-in)
+- sys (built-in)
 - PyPDF2
 - ttkthemes
+
+On Linux, for some reason the window size needs to be increased (.geometry and .minsize methods for both the main window and the about window).
 
 ## License
 
