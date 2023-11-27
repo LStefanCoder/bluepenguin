@@ -25,6 +25,10 @@ The dependencies are:
 
 On Linux, for some reason the window size needs to be increased (.geometry and .minsize methods for both the main window and the about window).
 
+## Known issues
+
+The program needs to be restarted before another booklet is created.
+
 ## License
 
 Released under the GPL v. 3.0 license (see https://www.gnu.org/licenses/gpl-3.0.txt).
